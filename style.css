@@ -1,0 +1,20 @@
+body {
+	background-color: #B1A296;
+}
+h2 {
+	background-color: #8D8741;
+}
+.header1 {
+	background-color: #659DBD;
+}
+.tempText {
+	font-size: 32px;
+}
+.tempDes {
+	font-size: 20px;
+}
+.cityHeader {
+	background-color: #8D8741;
+	margin-left: 20%;
+	margin-right: 20%;
+}

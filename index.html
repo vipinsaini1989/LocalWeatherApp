@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Welcome to vipin's weather </title>
+</head>
+<body>
+	<script type="text/javascript" src="main.js"></script>
+	<h2>VIP.in</h2>
+	<h1 class="header1">Local Weather</h1>
+	<div>
+		<p>Find a forecast</p>
+		<input type="text" id= "placeName" placeholder="Enter the city name">
+		<input type="button" onclick="enteredLocation()" value="Search">
+	</div>
+	<center>
+		<form id="checkButton">
+			<input type="radio" name="temperature"  id="celsius" checked >
+			<label>&deg C</label>
+			<input type="radio" name="temperature"  id="fahrenheit" >
+			<label>&deg F</label>
+		</form>
+		<div ><h1 id="cityName" class="cityHeader"></h1></div>
+		<div>
+			<figure> <img id="wthIcon" src="weatherIcon" width="100px" height="100px"> </figure>
+			<p id="tempValue" class="tempText"></p>
+		</div>
+		
+		<div id="description" class="tempDes"></div>
+		
+	</center>
+	
+
+</body>
+</html>
