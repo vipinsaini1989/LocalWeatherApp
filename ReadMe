@@ -1,0 +1,13 @@
+Local Weather Page......
+
+- shows local weather means use geolocation and show current temperature of the city which is provided by device.
+- show temperature in both Degree celsius and farenheit.
+
+
+
+
+Future....
+- provide weather of the place we entered.
+- More detail than just temperature.
+- show forecaste for next 2-3 days.
+- we provide background effect as per the forecast.
