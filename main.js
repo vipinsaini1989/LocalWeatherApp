@@ -1,3 +1,4 @@
+// Declaration of variable
 var longi;
 var lati;
 var weatherIcon;
@@ -6,7 +7,7 @@ var city;
 var temperatureValue;
 
 // cityName = document.getElementbyId('innerText').value;
-
+// Getting the user location
 function weather() {
 	if (navigator.geolocation){
 		navigator.geolocation.getCurrentPosition(function(position) {
@@ -23,7 +24,7 @@ function weather() {
 // calling the weather function
 weather();
 
-
+// Fetching the information 
 function getfetch(lati,longi)	{
 	var url = "https://fcc-weather-api.glitch.me/api/current?lat="+lati+"&lon="+longi;
 	fetch (url)
@@ -35,6 +36,7 @@ function getfetch(lati,longi)	{
 	})
 }
 
+// Using the fetched information
 function enteredLocation(recievedData){
 	console.log (recievedData);
 
